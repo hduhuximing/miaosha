@@ -1,37 +1,43 @@
 # SpringBoot-SecondKill
 
 #### 介绍
-基于SpringBoot+Mybatis+Mysql+中间件构建的商城秒杀系统
+基于SpringBoot+Mybatis+Mysql+中间件构建的商城秒杀系统；其中，中间件主要包括：缓存中间件Redis、消息中间件RabbitMQ、统一协调调度中心中间件ZooKeeper、综合中间件Redisson等等，详细的技术列表可以参见下方“系统整体架构说明”
 
-#### 软件架构
-软件架构说明
+#### 系统整体架构说明
+（1）技术列表：
+![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kBYCAWZORAACYT2bH4WY459.png?token=e2082cb496a17897d4eb448b3a7f36b1&ts=1562642213&attname=3.png&disposition=inline)
+
+（2）系统整体业务流程：
+![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kBYCAWZORAACYT2bH4WY459.png?token=e2082cb496a17897d4eb448b3a7f36b1&ts=1562642213&attname=3.png&disposition=inline)
+
+（3）系统实战收益：
+![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kBYCAWZORAACYT2bH4WY459.png?token=e2082cb496a17897d4eb448b3a7f36b1&ts=1562642213&attname=3.png&disposition=inline)
 
 
-#### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+#### 如何运行整个系统
 
-#### 使用说明
+1. 
+2. 
+3. 
 
-1. xxxx
-2. xxxx
-3. xxxx
+#### 博客列表
+
+1. 
+2. 
+3. 
+
+#### 视频教程
+
+
+#### 联系Debug
+对于秒杀的实现，每个人的实现方案可能会有所不同！对于本系统相关的内容，包括**源码、数据库、视频教程、资料、工具**等等有疑问的地方，均可以联系Debug或者加下面的QQ群获取相应的资料！
+
+Debug的微信：debug0868 （加微信后，记得叫debug把你拉进微信的技术交流群）
+Debug的QQ：1948831260
+QQ群：Java实战基地交流1群-605610429
+
 
 #### 参与贡献
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
 
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
