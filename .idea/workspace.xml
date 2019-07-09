@@ -2,42 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/application-local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/spring/spring-jdbc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/application-local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/spring/spring-jdbc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/executeFail.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/executeSuccess.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/head.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/killRecord.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/tag.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/welcome.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/css/detail.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/jquery.cookie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/jquery.countdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/jquery.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -62,8 +26,8 @@
       <file leaf-file-name="ItemKill.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/ItemKill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="168">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1299,7 +1263,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562639449189</updated>
-      <workItem from="1562639450807" duration="14707000" />
+      <workItem from="1562639450807" duration="14764000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
@@ -1371,11 +1335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562664344761</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="调整了readme.md的内容&#10;">
+      <created>1562682574895</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562682574895</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14707000" />
+    <option name="totallyTimeSpent" value="14764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1470,7 +1441,8 @@
     <MESSAGE value="1、在readme文件调整一些内容&#10;2、添加数据库DDL" />
     <MESSAGE value="在readme文件调整一些内容&#10;" />
     <MESSAGE value="1、搭建完整的Java商城秒杀系统的整体架构&#10;2、实现该秒杀系统所涉及的全部业务模块&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、搭建完整的Java商城秒杀系统的整体架构&#10;2、实现该秒杀系统所涉及的全部业务模块&#10;" />
+    <MESSAGE value="调整了readme.md的内容&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整了readme.md的内容&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1886,7 +1858,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="120">
-            <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1895,8 +1867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/ItemKill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="168">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
