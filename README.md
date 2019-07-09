@@ -25,17 +25,18 @@ Redis_Windows的简化安装版(Redis-x64-3.2.100)--当然，如果自己有Linu
 ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Linux服务器，也可以连接Linux的  
 (注意：Redis_Windows的简化安装版 和 ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6) 的简化版工具可以在**“附件”**中下载)
 
-#### 如何运行整个系统
+#### 如何运行整个系统  
+1.首先需要在本地开发环境启动Redis、ZooKeeper服务（假设整套系统连接的服务是本地的）:双击Redis、ZooKeeper-Windows简化安装版的bin目录，Redis找寻redis-server.exe，ZooKeeper找寻zkServer.cmd文件，双击即可启动相应的服务     
+2.将数据库的DDL，即db_second_kill.sql导入到你本地数据库中（前提是你得先建好数据库db_second_kill）     
+3.将项目从码云check出来，并import进IDEA中，调整IDEA的maven仓库指向，最终将所需要的jar包都下载下来！(如果有一些Jar下载不下来，自己检查一下网络原因跟maven仓库原因吧!)    
+4.修改application.properties配置文件中相应的配置信息，比如数据库连接信息等等；    
+5.将系统运行在Tomcat服务器上，观察控制台的输出信息，如果没有报错，那么运行之后一般会自动跳转至首页！  
+6.最后，可以开心的玩耍了！  
 
-1. 
-2. 
-3. 
-
-#### 博客列表
-
-1. 
-2. 
-3. 
+#### 博客列表(建议按照顺序来！！)  
+1.   
+2.   
+3.   
 
 #### 联系Debug
 对于秒杀的实现，每个人的实现方案可能会有所不同！对于本系统相关的内容，包括**源码、数据库、视频教程、资料、工具**等等有疑问的地方，均可以联系Debug或者加下面的QQ群获取相应的资料！
@@ -92,6 +93,10 @@ Debug的技术公众号：
 第五章：课程总结  
 5-1课程总结与建议  
 
-#### 参与贡献  
+#### 支持Debug  
+开源不易，若是可以，打赏一下Debug呗！  
+![alt text](https://files.gitee.com/group1/M00/08/7D/PaAvDF0kOs-AOubsAAFWHroEKTU016.jpg?token=f2714872770e7562d36b7c936a1556b7&ts=1562655440&attname=%E6%94%AF%E4%BB%98%E5%AE%9D-%E7%A8%8B%E5%BA%8F%E5%91%98%E5%AE%9E%E6%88%98%E5%9F%BA%E5%9C%B0.jpg&disposition=inline  )
+
+
 
 
