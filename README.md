@@ -95,7 +95,6 @@ Debug的技术公众号：
 
 #### 支持Debug  
 开源不易，若是可以，打赏一下Debug呗！  
-![alt text](https://files.gitee.com/group1/M00/08/7D/PaAvDF0kOs-AOubsAAFWHroEKTU016.jpg?token=f2714872770e7562d36b7c936a1556b7&ts=1562655440&attname=%E6%94%AF%E4%BB%98%E5%AE%9D-%E7%A8%8B%E5%BA%8F%E5%91%98%E5%AE%9E%E6%88%98%E5%9F%BA%E5%9C%B0.jpg&disposition=inline  )
 
 
 
