@@ -17,10 +17,12 @@
 #### 开发软件与工具
 IntelliJ IDEA  
 DataGrid (或者 Navicat Premium)  
+SpringBoot 1.5.7  
 JDK1.8  
 Mysql5.6  
 Tomcat7 (或者 Tomcat8)  
 JMeter5.x  
+PostMan  
 Redis_Windows的简化安装版(Redis-x64-3.2.100)--当然，如果自己有Linux服务器，也可以连接Linux的  
 ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Linux服务器，也可以连接Linux的  
 (注意：Redis_Windows的简化安装版 和 ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6) 的简化版工具可以在**“附件”**中下载)
