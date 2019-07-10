@@ -24,7 +24,6 @@ public class ItemService implements IItemService {
     @Autowired
     private ItemKillMapper itemKillMapper;
 
-
     /**
      * 获取待秒杀商品列表
      * @return

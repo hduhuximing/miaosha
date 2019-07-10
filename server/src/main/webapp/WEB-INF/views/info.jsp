@@ -52,13 +52,10 @@
             contentType: "application/json;charset=utf-8",
             data: JSON.stringify(getJsonData()),
             dataType: "json",
-
             success: function(res){
                 if (res.code==0) {
-                    //alert(res.msg);
                     window.location.href="${ctx}/kill/execute/success"
                 }else{
-                    //alert(res.msg);
                     window.location.href="${ctx}/kill/execute/fail"
                 }
             },
@@ -68,7 +65,6 @@
             }
         });
     }
-
     function getJsonData() {
         var killId=$("#killId").val();
         /*var data = {

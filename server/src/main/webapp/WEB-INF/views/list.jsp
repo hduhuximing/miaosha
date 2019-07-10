@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>商城高并发抢单-商品列表</title>
+    <title>商城高并发抢单/Java秒杀系统-商品列表</title>
     <%@include file="head.jsp" %>
 </head>
 <body>
@@ -13,7 +13,7 @@
 <div class="container">
     <div class="panel panel-default">
         <div class="panel-heading text-center">
-            <h2>商城高并发抢单-秒杀商品列表</h2>
+            <h2>商城高并发抢单/Java秒杀系统-秒杀商品列表</h2>
         </div>
 
         <div class="panel-body">

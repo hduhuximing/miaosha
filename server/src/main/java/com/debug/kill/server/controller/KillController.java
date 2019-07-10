@@ -39,8 +39,6 @@ public class KillController {
     @Autowired
     private ItemKillSuccessMapper itemKillSuccessMapper;
 
-
-
     /***
      * 商品秒杀核心业务逻辑
      * @param dto
