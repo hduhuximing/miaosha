@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="调整了readme.md的内容&#10;">
+    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/mapper/ItemKillMapper.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/mapper/ItemKillMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemService.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp" afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/list.jsp" afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,12 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+            <state relative-caret-position="312">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="168">
+                <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -135,7 +142,6 @@
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/SchedulerService.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/debug/kill/api/enums/StatusCode.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/mapper/ItemKillMapper.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemService.java" />
@@ -143,6 +149,7 @@
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java" />
         <option value="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" />
         <option value="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -419,7 +426,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/login.jsp&#10;usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Shircon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;pom.xml&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;applica&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/application.properties&#10;info&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;KillController&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info.jsp&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;list&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;KillContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;Shiro&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;read&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;welcome&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/welcome.jsp&#10;read.md&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;Baseres&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/api/src/main/java/com/debug/kill/api/response/BaseResponse.java" />
+    <property name="SearchEverywhereHistoryKey" value="Readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;login&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/login.jsp&#10;usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Shircon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;pom.xml&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;applica&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/application.properties&#10;info&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;KillController&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info.jsp&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;list&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;KillContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;Shiro&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;read&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;welcome&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/welcome.jsp&#10;read.md&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;Baseres&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/api/src/main/java/com/debug/kill/api/response/BaseResponse.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1028,7 +1035,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562639449189</updated>
       <workItem from="1562639450807" duration="15850000" />
-      <workItem from="1562720443891" duration="16195000" />
+      <workItem from="1562720443891" duration="16293000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
@@ -1114,11 +1121,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562682616561</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1、调整一些类、接口等文件的编写规范&#10;">
+      <created>1562767005203</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562767005203</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32045000" />
+    <option name="totallyTimeSpent" value="32143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1214,7 +1228,8 @@
     <MESSAGE value="在readme文件调整一些内容&#10;" />
     <MESSAGE value="1、搭建完整的Java商城秒杀系统的整体架构&#10;2、实现该秒杀系统所涉及的全部业务模块&#10;" />
     <MESSAGE value="调整了readme.md的内容&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整了readme.md的内容&#10;" />
+    <MESSAGE value="1、调整一些类、接口等文件的编写规范&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、调整一些类、接口等文件的编写规范&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1457,16 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/ItemKill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1637,9 +1642,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+        <state relative-caret-position="312">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
