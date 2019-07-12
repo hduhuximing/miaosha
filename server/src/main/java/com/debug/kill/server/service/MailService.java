@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 import javax.mail.internet.MimeMessage;
 
 /**
- * 邮件服务
+ * 通用的发送邮件服务
  * @Author:debug (SteadyJack)
  * @Date: 2019/6/22 10:09
  **/

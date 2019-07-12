@@ -14,7 +14,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 /**
- * RabbitMQ接收消息服务
+ * RabbitMQ通用的消息接收服务
  * @Author:debug (SteadyJack)
  * @Date: 2019/6/21 21:47
  **/
@@ -42,9 +42,11 @@ public class RabbitReceiverService {
             log.info("秒杀异步邮件通知-接收消息:{}",info);
 
             //TODO:真正的发送邮件....
+            //简单文本
             //MailDto dto=new MailDto(env.getProperty("mail.kill.item.success.subject"),"这是测试内容",new String[]{info.getEmail()});
             //mailService.sendSimpleEmail(dto);
 
+            //花哨文本
             final String content=String.format(env.getProperty("mail.kill.item.success.content"),info.getItemName(),info.getCode());
             MailDto dto=new MailDto(env.getProperty("mail.kill.item.success.subject"),content,new String[]{info.getEmail()});
             mailService.sendHTMLMail(dto);

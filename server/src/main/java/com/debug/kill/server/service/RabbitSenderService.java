@@ -20,7 +20,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 /**
- * RabbitMQ发送邮件服务
+ * RabbitMQ通用的消息发送服务
  * @Author:debug (SteadyJack)
  * @Date: 2019/6/21 21:47
  **/
