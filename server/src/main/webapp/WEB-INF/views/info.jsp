@@ -27,7 +27,8 @@
     <td>
         <c:choose>
             <c:when test="${detail.canKill==1}">
-                <a class="btn btn-info" style="font-size: 20px" onclick="executeKill()">抢购</a>
+                <a class="btn btn-info" style="font-size: 20px" onclick="executeKill()">抢购</a><br/><br/>
+                <a class="btn btn-info" style="font-size: 20px" onclick="executeKillMq()">抢购-MQ异步</a>
             </c:when>
             <c:otherwise>
                 <a class="btn btn-info" style="font-size: 20px">哈哈~商品已抢购完毕或者不在抢购时间段哦!</a>
@@ -46,24 +47,24 @@
 <link rel="stylesheet" href="${ctx}/static/css/detail.css" type="text/css">
 <script type="text/javascript">
     function executeKill() {
-        $.ajax({
-            type: "POST",
-            url: "${ctx}/kill/execute",
-            contentType: "application/json;charset=utf-8",
-            data: JSON.stringify(getJsonData()),
-            dataType: "json",
-            success: function(res){
-                if (res.code==0) {
-                    window.location.href="${ctx}/kill/execute/success"
-                }else{
-                    window.location.href="${ctx}/kill/execute/fail"
+            $.ajax({
+                type: "POST",
+                url: "${ctx}/kill/execute",
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify(getJsonData()),
+                dataType: "json",
+                success: function(res){
+                    if (res.code==0) {
+                        window.location.href="${ctx}/kill/execute/success"
+                    }else{
+                        window.location.href="${ctx}/kill/execute/fail"
+                    }
+                },
+                error: function (message) {
+                    alert("提交数据失败！");
+                    return;
                 }
-            },
-            error: function (message) {
-                alert("提交数据失败！");
-                return;
-            }
-        });
+            });
     }
     function getJsonData() {
         var killId=$("#killId").val();
@@ -75,6 +76,28 @@
             "killId":killId
         };
         return data;
+    }
+
+
+    function executeKillMq() {
+        $.ajax({
+            type: "POST",
+            url: "${ctx}/kill/execute/mq",
+            contentType: "application/json;charset=utf-8",
+            data: JSON.stringify(getJsonData()),
+            dataType: "json",
+            success: function(res){
+                if (res.code==0) {
+                    window.location.href="${ctx}/kill/execute/mq/to/result?killId="+$("#killId").val()
+                }else{
+                    window.location.href="${ctx}/kill/execute/fail"
+                }
+            },
+            error: function (message) {
+                alert("提交数据失败！");
+                return;
+            }
+        });
     }
 </script>
 

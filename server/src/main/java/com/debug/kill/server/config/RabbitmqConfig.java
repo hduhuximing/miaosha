@@ -145,6 +145,27 @@ public class RabbitmqConfig {
     public Binding successKillDeadBinding(){
         return BindingBuilder.bind(successKillRealQueue()).to(successKillDeadExchange()).with(env.getProperty("mq.kill.item.success.kill.dead.routing.key"));
     }
+
+
+    //TODO:RabbitMQ限流专用
+
+    @Bean
+    public Queue executeLimitQueue(){
+        Map<String, Object> argsMap=Maps.newHashMap();
+        //限制channel中队列同一时刻通过的消息数量
+        argsMap.put("x-max-length", env.getProperty("spring.rabbitmq.listener.simple.prefetch",Integer.class));
+        return new Queue(env.getProperty("mq.kill.item.execute.limit.queue.name"),true,false,false,argsMap);
+    }
+
+    @Bean
+    public TopicExchange executeLimitExchange(){
+        return new TopicExchange(env.getProperty("mq.kill.item.execute.limit.queue.exchange"),true,false);
+    }
+
+    @Bean
+    public Binding executeLimitBinding(){
+        return BindingBuilder.bind(executeLimitQueue()).to(executeLimitExchange()).with(env.getProperty("mq.kill.item.execute.limit.queue.routing.key"));
+    }
 }
 
 

@@ -30,6 +30,4 @@ public class RedissonConfig {
         RedissonClient client=Redisson.create(config);
         return client;
     }
-
-
 }

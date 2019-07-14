@@ -8,6 +8,8 @@ import com.debug.kill.model.dto.KillSuccessUserInfo;
 import com.debug.kill.model.mapper.ItemKillSuccessMapper;
 import com.debug.kill.server.dto.KillDto;
 import com.debug.kill.server.service.IKillService;
+import com.debug.kill.server.service.RabbitSenderService;
+import com.google.common.collect.Maps;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +22,8 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
+import java.util.Map;
+import java.util.Objects;
 
 /**
  * 秒杀controller
@@ -99,10 +103,10 @@ public class KillController {
             }*/
 
             //基于Redis的分布式锁进行控制
-            Boolean res=killService.killItemV3(dto.getKillId(),dto.getUserId());
+            /*Boolean res=killService.killItemV3(dto.getKillId(),dto.getUserId());
             if (!res){
                 return new BaseResponse(StatusCode.Fail.getCode(),"基于Redis的分布式锁进行控制-哈哈~商品已抢购完毕或者不在抢购时间段哦!");
-            }
+            }*/
 
             //基于Redisson的分布式锁进行控制
             /*Boolean res=killService.killItemV4(dto.getKillId(),dto.getUserId());
@@ -111,10 +115,10 @@ public class KillController {
             }*/
 
             //基于ZooKeeper的分布式锁进行控制
-            /*Boolean res=killService.killItemV5(dto.getKillId(),dto.getUserId());
+            Boolean res=killService.killItemV5(dto.getKillId(),dto.getUserId());
             if (!res){
                 return new BaseResponse(StatusCode.Fail.getCode(),"基于ZooKeeper的分布式锁进行控制-哈哈~商品已抢购完毕或者不在抢购时间段哦!");
-            }*/
+            }
 
         }catch (Exception e){
             response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
@@ -162,6 +166,89 @@ public class KillController {
         return "executeFail";
     }
 
+
+
+
+
+    @Autowired
+    private RabbitSenderService rabbitSenderService;
+
+    //商品秒杀核心业务逻辑-mq限流
+    @RequestMapping(value = prefix+"/execute/mq",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @ResponseBody
+    public BaseResponse executeMq(@RequestBody @Validated KillDto dto, BindingResult result, HttpSession session){
+        if (result.hasErrors() || dto.getKillId()<=0){
+            return new BaseResponse(StatusCode.InvalidParams);
+        }
+        Object uId=session.getAttribute("uid");
+        if (uId==null){
+            return new BaseResponse(StatusCode.UserNotLogin);
+        }
+        Integer userId= (Integer)uId ;
+
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        Map<String,Object> dataMap= Maps.newHashMap();
+        try {
+            dataMap.put("killId",dto.getKillId());
+            dataMap.put("userId",userId);
+            response.setData(dataMap);
+
+            dto.setUserId(userId);
+            rabbitSenderService.sendKillExecuteMqMsg(dto);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
+        return response;
+    }
+
+    //商品秒杀核心业务逻辑-mq限流-立马跳转至抢购结果页
+    @RequestMapping(value = prefix+"/execute/mq/to/result",method = RequestMethod.GET)
+    public String executeToResult(@RequestParam Integer killId,HttpSession session,ModelMap modelMap){
+        Object uId=session.getAttribute("uid");
+        if (uId!=null){
+            Integer userId= (Integer)uId ;
+
+            modelMap.put("killId",killId);
+            modelMap.put("userId",userId);
+        }
+        return "executeMqResult";
+    }
+
+    //商品秒杀核心业务逻辑-mq限流-在抢购结果页中发起抢购结果的查询
+    @RequestMapping(value = prefix+"/execute/mq/result",method = RequestMethod.GET)
+    @ResponseBody
+    public BaseResponse executeResult(@RequestParam Integer killId,@RequestParam Integer userId){
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        try {
+            Map<String,Object> resMap=killService.checkUserKillResult(killId,userId);
+            response.setData(resMap);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
+        return response;
+    }
+
+    //商品秒杀核心业务逻辑-mq限流-JMeter压测
+    @RequestMapping(value = prefix+"/execute/mq/lock",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @ResponseBody
+    public BaseResponse executeMqLock(@RequestBody @Validated KillDto dto, BindingResult result){
+        if (result.hasErrors() || dto.getKillId()<=0){
+            return new BaseResponse(StatusCode.InvalidParams);
+        }
+
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        Map<String,Object> dataMap= Maps.newHashMap();
+        try {
+            dataMap.put("killId",dto.getKillId());
+            dataMap.put("userId",dto.getUserId());
+            response.setData(dataMap);
+
+            rabbitSenderService.sendKillExecuteMqMsg(dto);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
+        return response;
+    }
 }
 
 

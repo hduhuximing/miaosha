@@ -4,6 +4,7 @@ package com.debug.kill.server.service;/**
 
 import com.debug.kill.model.dto.KillSuccessUserInfo;
 import com.debug.kill.model.mapper.ItemKillSuccessMapper;
+import com.debug.kill.server.dto.KillDto;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -103,6 +104,30 @@ public class RabbitSenderService {
         }
     }
 
+    /**
+     * 秒杀时异步发送Mq消息
+     * @param killDto
+     */
+    public void sendKillExecuteMqMsg(final KillDto killDto){
+        try {
+            if (killDto!=null){
+                rabbitTemplate.setMessageConverter(new Jackson2JsonMessageConverter());
+                rabbitTemplate.setExchange(env.getProperty("mq.kill.item.execute.limit.queue.exchange"));
+                rabbitTemplate.setRoutingKey(env.getProperty("mq.kill.item.execute.limit.queue.routing.key"));
+                rabbitTemplate.convertAndSend(killDto, new MessagePostProcessor() {
+                    @Override
+                    public Message postProcessMessage(Message message) throws AmqpException {
+                        MessageProperties mp=message.getMessageProperties();
+                        mp.setDeliveryMode(MessageDeliveryMode.PERSISTENT);
+                        mp.setHeader(AbstractJavaTypeMapper.DEFAULT_CONTENT_CLASSID_FIELD_NAME,KillDto.class);
+                        return message;
+                    }
+                });
+            }
+        }catch (Exception e){
+            log.error("秒杀时异步发送Mq消息-发生异常，消息为：{}",killDto,e.fillInStackTrace());
+        }
+    }
 }
 
 

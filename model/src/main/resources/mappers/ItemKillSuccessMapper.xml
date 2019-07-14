@@ -149,6 +149,21 @@
         a.`status` = 0
   </select>
 
+  <!--根据秒杀成功后killId+userId的订单编码查询-->
+  <select id="selectByKillIdUserId" resultType="com.debug.kill.model.dto.KillSuccessUserInfo">
+    SELECT
+    a.*,
+    b.user_name,
+    b.phone,
+    b.email,
+    c.name AS itemName
+    FROM item_kill_success AS a
+    LEFT JOIN user b ON b.id = a.user_id
+    LEFT JOIN item c ON c.id = a.item_id
+    WHERE a.kill_id=#{killId} AND a.user_id=#{userId}
+    AND b.is_active = 1
+  </select>
+
 </mapper>
 
 

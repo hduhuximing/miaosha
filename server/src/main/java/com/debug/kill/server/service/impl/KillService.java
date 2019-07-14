@@ -2,6 +2,7 @@ package com.debug.kill.server.service.impl;/**
  * Created by Administrator on 2019/6/17.
  */
 
+import com.debug.kill.model.dto.KillSuccessUserInfo;
 import com.debug.kill.model.entity.ItemKill;
 import com.debug.kill.model.entity.ItemKillSuccess;
 import com.debug.kill.model.mapper.ItemKillMapper;
@@ -11,6 +12,7 @@ import com.debug.kill.server.service.IKillService;
 import com.debug.kill.server.service.RabbitSenderService;
 import com.debug.kill.server.utils.RandomUtil;
 import com.debug.kill.server.utils.SnowFlake;
+import com.google.common.collect.Maps;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;
 import org.joda.time.DateTime;
@@ -19,10 +21,12 @@ import org.redisson.api.RedissonClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -44,6 +48,9 @@ public class KillService implements IKillService {
 
     @Autowired
     private RabbitSenderService rabbitSenderService;
+
+    @Autowired
+    private Environment env;
 
 
     /**
@@ -223,6 +230,8 @@ public class KillService implements IKillService {
         RLock lock=redissonClient.getLock(lockKey);
 
         try {
+            //TODO:第一个参数30s=表示尝试获取分布式锁，并且最大的等待获取锁的时间为30s
+            //TODO:第二个参数10s=表示上锁之后，10s内操作完毕将自动释放锁
             Boolean cacheRes=lock.tryLock(30,10,TimeUnit.SECONDS);
             if (cacheRes){
                 //TODO:核心业务逻辑的处理
@@ -237,10 +246,12 @@ public class KillService implements IKillService {
                         }
                     }
                 }else{
-                    throw new Exception("redisson-您已经抢购过该商品了!");
+                    //throw new Exception("redisson-您已经抢购过该商品了!");
+                    log.error("redisson-您已经抢购过该商品了!");
                 }
             }
         }finally {
+            //TODO:释放锁
             lock.unlock();
             //lock.forceUnlock();
         }
@@ -290,11 +301,35 @@ public class KillService implements IKillService {
                 mutex.release();
             }
         }
-
-
-
-
         return result;
+    }
+
+
+
+
+
+
+
+
+
+    /**
+     * 检查用户的秒杀结果
+     * @param killId
+     * @param userId
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public Map<String,Object> checkUserKillResult(Integer killId, Integer userId) throws Exception {
+        Map<String,Object> dataMap= Maps.newHashMap();
+        KillSuccessUserInfo info=itemKillSuccessMapper.selectByKillIdUserId(killId,userId);
+        if (info!=null){
+            dataMap.put("executeResult",String.format(env.getProperty("notice.kill.item.success.content"),info.getItemName()));
+            dataMap.put("info",info);
+        }else{
+            throw new Exception(env.getProperty("notice.kill.item.fail.content"));
+        }
+        return dataMap;
     }
 }
 
