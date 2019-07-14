@@ -49,7 +49,7 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 
 **QQ群**：Java实战基地交流1群-605610429   
 **Debug的微信**：debug0868（加微信后，记得叫debug把你拉进微信的技术交流群）  
-**Debug的QQ**：1948831260 <a target='_blank' href='http://wpa.qq.com/msgrd?v=1&uin=1974544863&site=qq&menu=yes'>                      	<img border='0' src='http://wpa.qq.com/pa?p=2:1974544863:41' alt='' title=''></a>
+**Debug的QQ**：1948831260 <a target='_blank' href='http://wpa.qq.com/msgrd?v=1&uin=1948831260&site=qq&menu=yes'>                      	<img border='0' src='http://wpa.qq.com/pa?p=2:1948831260:41' alt='' title=''></a>
 
 **Debug的技术公众号**：  
 ![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kCTmAHh9jAACWhfefKaQ486.jpg?token=fd4dbdaed2838d22c6e75693834c634e&ts=1562642746&attname=15cm.jpg&disposition=inline)  
