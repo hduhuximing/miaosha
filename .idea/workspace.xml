@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/mapper/ItemKillSuccessMapper.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/mapper/ItemKillSuccessMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ZooKeeperConfig.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ZooKeeperConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/IKillService.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/IKillService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp" afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,66 +23,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="81" column="4" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="100" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KillService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="324" column="57" lean-forward="false" selection-start-line="324" selection-start-column="57" selection-end-line="324" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemKillSuccessMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="157" column="12" lean-forward="true" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
-              <folding>
-                <marker date="1563078974473" expanded="true" signature="931:1048" ph="select from item_kill_success" />
-                <marker date="1563078974473" expanded="true" signature="1134:1205" ph="delete from " />
-                <marker date="1563078974473" expanded="true" signature="1306:1602" ph="insert into item_kill_success... " />
-                <marker date="1563078974473" expanded="true" signature="2880:3441" ph="update item_... " />
-                <marker date="1563078974473" expanded="true" signature="3554:3850" ph="update item_... " />
-                <marker date="1563078974473" expanded="true" signature="3963:4157" ph="SELECT COUNT... item_kill_success" />
-                <marker date="1563078974473" expanded="true" signature="4286:4552" ph="SELECT a.*, item_kill_success" />
-                <marker date="1563078974473" expanded="true" signature="4616:4700" ph="UPDATE item_... " />
-                <marker date="1563078974473" expanded="true" signature="4835:4980" ph="SELECT a.*,T... item_kill_success" />
-                <marker date="1563078974473" expanded="true" signature="5130:5403" ph="SELECT a.*, item_kill_success" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KillController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="222" column="57" lean-forward="false" selection-start-line="222" selection-start-column="57" selection-end-line="222" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1563085915000" expanded="true" signature="3181:4237" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="executeMqResult.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="46" column="33" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="59" selection-end-column="9" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="175">
+                <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="23" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -146,7 +83,6 @@
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/MailService.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ZooKeeperConfig.java" />
@@ -161,6 +97,7 @@
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -611,7 +548,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="executeMqResult&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Killcontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;Rab&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;Rabbit&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java&#10;applica&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/application.properties&#10;mq&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Ra&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;ex&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;itemkil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;IKill&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/IKillService.java&#10;info.js&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;pom.xml&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;Redissoncon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java&#10;KillCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;pom.x&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;KillContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;ItemKil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;Sch&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/SchedulerService.java&#10;Rabbitmqconf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java&#10;Kil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;KIllSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;spring-j&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/spring/spring-jdbc.xml&#10;Readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;login&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/login.jsp&#10;usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Shircon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;KillController&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info.jsp&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;list&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;Shiro&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;read&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;welcome&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/welcome.jsp&#10;read.md&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;Baseres&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/api/src/main/java/com/debug/kill/api/response/BaseResponse.java" />
+    <property name="SearchEverywhereHistoryKey" value="readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;executeMqResult&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Killcontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;Rab&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;Rabbit&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java&#10;applica&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/application.properties&#10;mq&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Ra&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;ex&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;itemkil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;IKill&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/IKillService.java&#10;info.js&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;pom.xml&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;Redissoncon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java&#10;KillCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;pom.x&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;KillContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;ItemKil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;Sch&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/SchedulerService.java&#10;Rabbitmqconf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java&#10;Kil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;KIllSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;spring-j&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/spring/spring-jdbc.xml&#10;Readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;login&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/login.jsp&#10;usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Shircon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;KillController&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info.jsp&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;list&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;Shiro&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;read&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;welcome&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/welcome.jsp&#10;read.md&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;Baseres&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/api/src/main/java/com/debug/kill/api/response/BaseResponse.java" />
     <property name="last_opened_file_path" value="E:/WorkSpaceIDEA/Teaching/springbootteach02" />
   </component>
   <component name="RecentsManager">
@@ -1225,7 +1162,7 @@
       <workItem from="1562811257874" duration="17297000" />
       <workItem from="1562895517971" duration="11304000" />
       <workItem from="1562986906990" duration="5872000" />
-      <workItem from="1563071434425" duration="11539000" />
+      <workItem from="1563071434425" duration="12586000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
@@ -1353,15 +1290,22 @@
       <option name="project" value="LOCAL" />
       <updated>1562943615900</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1、基于Redisson分布式锁优化秒杀逻辑&#10;2、基于ZooKeeper分布式锁优化秒杀逻辑&#10;3、采用RabbitMQ进行接口限流">
+      <created>1563100751447</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563100751447</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79855000" />
+    <option name="totallyTimeSpent" value="80902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1377,7 +1321,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8270142" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4241706" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1463,7 +1407,8 @@
     <MESSAGE value="1、调整readme.md的内容" />
     <MESSAGE value="1、调整RabbitMQ异步发送的逻辑、发送邮件服务逻辑的调整" />
     <MESSAGE value="1、基于Redis的原子操作优化秒杀逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、基于Redis的原子操作优化秒杀逻辑" />
+    <MESSAGE value="1、基于Redisson分布式锁优化秒杀逻辑&#10;2、基于ZooKeeper分布式锁优化秒杀逻辑&#10;3、采用RabbitMQ进行接口限流" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、基于Redisson分布式锁优化秒杀逻辑&#10;2、基于ZooKeeper分布式锁优化秒杀逻辑&#10;3、采用RabbitMQ进行接口限流" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1675,16 +1620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="335">
-            <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1909,6 +1844,17 @@
         <state relative-caret-position="317">
           <caret line="324" column="57" lean-forward="false" selection-start-line="324" selection-start-column="57" selection-end-line="324" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
