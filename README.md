@@ -44,8 +44,8 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 6.最后，可以开心的玩耍了！  
 
 #### 博客列表(建议按照顺序来！！)  
-1.   
-2.   
+1.https://my.oschina.net/steadyjack/blog/3074162  
+2.https://my.oschina.net/steadyjack/blog/3074177  
 3.   
 
 #### 联系Debug

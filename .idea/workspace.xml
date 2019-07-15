@@ -27,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="607">
-                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <first_editor relative-caret-position="271">
+                <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -150,7 +150,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -1162,7 +1162,7 @@
       <workItem from="1562811257874" duration="17297000" />
       <workItem from="1562895517971" duration="11304000" />
       <workItem from="1562986906990" duration="5872000" />
-      <workItem from="1563071434425" duration="12830000" />
+      <workItem from="1563071434425" duration="13458000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
@@ -1311,14 +1311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563101802188</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1、readme添加效果展示图">
+      <created>1563102011467</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563102011467</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81146000" />
+    <option name="totallyTimeSpent" value="81774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1423,7 +1430,8 @@
     <MESSAGE value="1、基于Redis的原子操作优化秒杀逻辑" />
     <MESSAGE value="1、基于Redisson分布式锁优化秒杀逻辑&#10;2、基于ZooKeeper分布式锁优化秒杀逻辑&#10;3、采用RabbitMQ进行接口限流" />
     <MESSAGE value="1、readme添加联系信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、readme添加联系信息" />
+    <MESSAGE value="1、readme添加效果展示图" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、readme添加效果展示图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1865,8 +1873,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="607">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <first_editor relative-caret-position="271">
+            <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
