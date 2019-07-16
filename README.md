@@ -46,7 +46,23 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 #### 博客列表(建议按照顺序来！！)  
 1.https://my.oschina.net/steadyjack/blog/3074162  
 2.https://my.oschina.net/steadyjack/blog/3074177  
-3.   
+3.https://my.oschina.net/steadyjack/blog/3074653  
+4.  
+5.  
+6.  
+7.   
+8.     
+9.     
+10.     
+11.  
+12.  
+13.  
+14.  
+15.  
+16.  
+17.  
+18.
+
 
 #### 联系Debug
 对于秒杀的实现，每个人的实现方案可能会有所不同！对于本系统相关的内容，包括**源码、数据库、视频教程、资料、工具**等等有疑问的地方，均可以联系Debug或者加下面的QQ群获取相应的资料！
