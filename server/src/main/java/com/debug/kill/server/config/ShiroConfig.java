@@ -3,6 +3,8 @@ package com.debug.kill.server.config;/**
  */
 
 import com.debug.kill.server.service.CustomRealm;
+import org.apache.shiro.authc.credential.CredentialsMatcher;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -22,13 +24,15 @@ public class ShiroConfig {
 
     @Bean
     public CustomRealm customRealm(){
-        return new CustomRealm();
+        CustomRealm realm=new CustomRealm();
+        return realm;
     }
 
     @Bean
     public SecurityManager securityManager(){
         DefaultWebSecurityManager securityManager=new DefaultWebSecurityManager();
         securityManager.setRealm(customRealm());
+        securityManager.setRememberMeManager(null);
         return securityManager;
     }
 
@@ -42,14 +46,14 @@ public class ShiroConfig {
         Map<String, String> filterChainDefinitionMap=new HashMap<>();
         filterChainDefinitionMap.put("/to/login","anon");
 
-        filterChainDefinitionMap.put("/**","anon");
-
         filterChainDefinitionMap.put("/kill/execute","authc");
         filterChainDefinitionMap.put("/item/detail/*","authc");
 
+        filterChainDefinitionMap.put("/**","anon");
         bean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         return bean;
     }
+
 
 }
 

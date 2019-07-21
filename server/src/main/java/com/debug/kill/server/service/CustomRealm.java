@@ -30,8 +30,6 @@ public class CustomRealm extends AuthorizingRealm{
     @Autowired
     private UserMapper userMapper;
 
-
-
     /**
      * 授权
      * @param principalCollection
