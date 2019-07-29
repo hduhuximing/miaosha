@@ -6,20 +6,20 @@
 
 #### 系统整体架构说明
 （1）技术列表：
-![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kBYCAWZORAACYT2bH4WY459.png?token=e2082cb496a17897d4eb448b3a7f36b1&ts=1562642213&attname=3.png&disposition=inline)
+![alt 核心技术列表](https://images.gitbook.cn/833cb680-b1b2-11e9-89f4-5ff5de72dccb)
 
 （2）系统整体业务流程：
-![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kBXGAW-SdAAH3nhiBJ5U111.png?token=8d23a9b74a10c3a88a226d6ecae101b6&ts=1562644118&attname=2.png&disposition=inline)
+![alt 系统整体业务流程](https://images.gitbook.cn/9af2cfd0-b1b2-11e9-8487-47beb0202202)
 
 （3）系统实战收益：
-![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kBY6AHtLtAACNSer3qrA910.png?token=238ccd82971b948c87c7eb64b0016287&ts=1562644118&attname=4.png&disposition=inline)  
+![alt 系统实战收益](https://images.gitbook.cn/a9d7ad90-b1b2-11e9-b1e4-bd20b997b6ad)  
 
 (4)部分运行效果截图：
-![alt text](https://files.gitee.com/group1/M00/08/87/PaAvDF0m2_uALejlAAEfR89rV-I395.png?token=d9ea17cafb5bcc755c2fd265017c3751&ts=1562827772&attname=Java%E5%95%86%E5%9F%8E%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E8%BF%90%E8%A1%8C%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE.png&disposition=inline)    
+![alt 运行效果1](https://images.gitbook.cn/b7aa5800-b1b2-11e9-8b37-8b327485b95f)    
 
-![alt text](https://files.gitee.com/group1/M00/08/91/PaAvDF0rCtOAWd5HAACHh3r1W3M130.png?token=682761a507c3ed6a2d8ae69cdba769ac&ts=1563101933&attname=1.png&disposition=inline)   
+![alt 运行效果2](https://images.gitbook.cn/c3558e90-b1b2-11e9-89f4-5ff5de72dccb)   
  
-![alt text](https://files.gitee.com/group1/M00/08/91/PaAvDF0rCu2AcrqFAAA4XM8pHqg987.png?token=cb976d0038ae6130281f873d7f2976ef&ts=1563101933&attname=3.png&disposition=inline)   
+![alt 运行效果3](https://images.gitbook.cn/ce5e1c80-b1b2-11e9-b1e4-bd20b997b6ad)   
  
 
 #### 开发软件与工具
@@ -72,7 +72,7 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 **Debug的QQ**：1948831260 <a target='_blank' href='http://wpa.qq.com/msgrd?v=1&uin=1948831260&site=qq&menu=yes'>                      	<img border='0' src='http://wpa.qq.com/pa?p=2:1948831260:41' alt='' title=''></a>
 
 **Debug的技术公众号**：  
-![alt text](https://files.gitee.com/group1/M00/08/7C/PaAvDF0kCTmAHh9jAACWhfefKaQ486.jpg?token=fd4dbdaed2838d22c6e75693834c634e&ts=1562642746&attname=15cm.jpg&disposition=inline)  
+![alt Debug的技术公众号](https://images.gitbook.cn/daec11f0-b1b2-11e9-8b37-8b327485b95fe)  
 
 
 #### 视频教程
