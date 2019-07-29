@@ -72,7 +72,7 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 **Debug的QQ**：1948831260 <a target='_blank' href='http://wpa.qq.com/msgrd?v=1&uin=1948831260&site=qq&menu=yes'>                      	<img border='0' src='http://wpa.qq.com/pa?p=2:1948831260:41' alt='' title=''></a>
 
 **Debug的技术公众号**：  
-![alt Debug的技术公众号](https://images.gitbook.cn/daec11f0-b1b2-11e9-8b37-8b327485b95fe)  
+![alt Debug的技术公众号](https://images.gitbook.cn/daec11f0-b1b2-11e9-8b37-8b327485b95f)  
 
 
 #### 视频教程
