@@ -54,7 +54,7 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 8.https://my.oschina.net/steadyjack/blog/3079354       
 9.https://my.oschina.net/steadyjack/blog/3080994       
 10.https://my.oschina.net/steadyjack/blog/3081468       
-11.  
+11.https://my.oschina.net/steadyjack/blog/3084513     
 12.  
 13.  
 14.  
