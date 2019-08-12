@@ -55,16 +55,10 @@ public class KillController {
         if (result.hasErrors() || dto.getKillId()<=0){
             return new BaseResponse(StatusCode.InvalidParams);
         }
-        Object uId=session.getAttribute("uid");
-        if (uId==null){
-            return new BaseResponse(StatusCode.UserNotLogin);
-        }
-        //Integer userId=dto.getUserId();
-        Integer userId= (Integer)uId ;
+        Integer userId=dto.getUserId();
 
         BaseResponse response=new BaseResponse(StatusCode.Success);
         try {
-            //Boolean res=killService.killItem(dto.getKillId(),userId);
             Boolean res=killService.killItem(dto.getKillId(),userId);
             if (!res){
                 return new BaseResponse(StatusCode.Fail.getCode(),"哈哈~商品已抢购完毕或者不在抢购时间段哦!");

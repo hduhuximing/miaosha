@@ -47,7 +47,7 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/to/login","anon");
 
         filterChainDefinitionMap.put("/kill/execute","authc");
-        filterChainDefinitionMap.put("/item/detail/*","authc");
+        filterChainDefinitionMap.put("/item/detail","authc");
 
         filterChainDefinitionMap.put("/**","anon");
         bean.setFilterChainDefinitionMap(filterChainDefinitionMap);

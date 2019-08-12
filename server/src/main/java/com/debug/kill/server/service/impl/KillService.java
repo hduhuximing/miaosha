@@ -64,28 +64,31 @@ public class KillService implements IKillService {
     public Boolean killItem(Integer killId, Integer userId) throws Exception {
         Boolean result=false;
 
-        //TODO:判断当前用户是否已经抢购过当前商品
+        //TODO:判断当前用户是否已经抢购了当前商品
         if (itemKillSuccessMapper.countByKillUserId(killId,userId) <= 0){
-            //TODO:查询待秒杀商品详情
+            //TODO:判断当前代抢购的商品库存是否充足、以及是否出在可抢的时间段内 - canKill
             ItemKill itemKill=itemKillMapper.selectById(killId);
+            if (itemKill!=null && 1==itemKill.getCanKill()){
 
-            //TODO:判断是否可以被秒杀canKill=1?
-            if (itemKill!=null && 1==itemKill.getCanKill() ){
-                //TODO:扣减库存-减一
+                //TODO:扣减库存-减1
                 int res=itemKillMapper.updateKillItem(killId);
-
-                //TODO:扣减是否成功?是-生成秒杀成功的订单，同时通知用户秒杀成功的消息
                 if (res>0){
-                    commonRecordKillSuccessInfo(itemKill,userId);
+                    //TODO:判断是否扣减成功了?是-生成秒杀成功的订单、同时通知用户秒杀已经成功（在一个通用的方法里面实现）
+                    this.commonRecordKillSuccessInfo(itemKill,userId);
 
                     result=true;
                 }
             }
         }else{
-            throw new Exception("您已经抢购过该商品了!");
+            throw new Exception("您已经抢购过该商品了！");
         }
+
         return result;
     }
+
+
+
+
 
 
     /**
