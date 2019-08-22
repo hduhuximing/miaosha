@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="">
+    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="1、添加博客：https://my.oschina.net/steadyjack/blog/3092759">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -35,94 +35,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="336">
-                <caret line="59" column="51" lean-forward="false" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+              <first_editor relative-caret-position="360">
+                <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="51" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1776">
-              <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KillController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-              <folding>
-                <marker date="1565576048525" expanded="true" signature="2924:3980" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KillService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemKillSuccessMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/mapper/ItemKillSuccessMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="21" column="84" lean-forward="false" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemKillSuccessMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2472">
-              <caret line="103" column="41" lean-forward="false" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
-              <folding>
-                <marker date="1565576378954" expanded="true" signature="931:1048" ph="select from item_kill_success" />
-                <marker date="1565576378954" expanded="true" signature="1134:1205" ph="delete from " />
-                <marker date="1565576378954" expanded="true" signature="1306:1602" ph="insert into item_kill_success... " />
-                <marker date="1565576378954" expanded="true" signature="2880:3441" ph="update item_... " />
-                <marker date="1565576378954" expanded="true" signature="3554:3850" ph="update item_... " />
-                <marker date="1565576378954" expanded="true" signature="3963:4086" ph="SELECT COUNT... item_kill_success" />
-                <marker date="1565576378954" expanded="true" signature="4215:4481" ph="SELECT a.*, item_kill_success" />
-                <marker date="1565576378954" expanded="true" signature="4545:4629" ph="UPDATE item_... " />
-                <marker date="1565576378954" expanded="true" signature="4764:4909" ph="SELECT a.*,T... item_kill_success" />
-                <marker date="1565576378954" expanded="true" signature="5059:5332" ph="SELECT a.*, item_kill_success" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -245,7 +162,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -254,7 +171,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -267,7 +184,143 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootSecondKill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -277,7 +330,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="applica&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/application.properties&#10;readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;ItemKillMa&#9;PSI&#9;JAVA://com.debug.kill.model.mapper.ItemKillMapper&#10;ItemKillS&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/java/com/debug/kill/model/mapper/ItemKillSuccessMapper.java&#10;Shiro&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;Usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Cus&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/CustomRealm.java&#10;info.js&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;KIllService&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;read&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;ShiroCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;pom.xml&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;Rlo&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/redisson/redisson/3.8.2/redisson-3.8.2.jar!/org/redisson/api/RLock.class&#10;RedissonCli&#9;PSI&#9;JAVA://org.redisson.api.RedissonClient&#10;Main&#9;RUN_CONFIGURATION&#9;MainApplication&#10;Usercon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;CookieRem&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/shiro/shiro-web/1.2.6/shiro-web-1.2.6.jar!/org/apache/shiro/web/mgt/CookieRememberMeManager.class&#10;ItemContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/ItemController.java&#10;Usercontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;ShiroCOnf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;lis&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;login&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/login.jsp&#10;KillSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;executeMqResult&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Killcontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;Rab&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;Rabbit&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java&#10;mq&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Ra&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;ex&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;itemkil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;IKill&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/IKillService.java&#10;Redissoncon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java&#10;KillCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;pom.x&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;KillContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;ItemKil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;Sch&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/SchedulerService.java&#10;Rabbitmqconf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java&#10;Kil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;KIllSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;spring-j&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/spring/spring-jdbc.xml&#10;Readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Shircon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;KillController&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info.jsp&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;list&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;welcome&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/welcome.jsp" />
+    <property name="SearchEverywhereHistoryKey" value="AbstractJavaType&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/support/converter/AbstractJavaTypeMapper.class&#10;readmem&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;Rabbitmqcon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java&#10;SnowF&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java&#10;applica&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/application.properties&#10;readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;ItemKillMa&#9;PSI&#9;JAVA://com.debug.kill.model.mapper.ItemKillMapper&#10;ItemKillS&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/java/com/debug/kill/model/mapper/ItemKillSuccessMapper.java&#10;Shiro&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;Usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Cus&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/CustomRealm.java&#10;info.js&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;KIllService&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;read&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;ShiroCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;pom.xml&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;Rlo&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/redisson/redisson/3.8.2/redisson-3.8.2.jar!/org/redisson/api/RLock.class&#10;RedissonCli&#9;PSI&#9;JAVA://org.redisson.api.RedissonClient&#10;Main&#9;RUN_CONFIGURATION&#9;MainApplication&#10;Usercon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;CookieRem&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/shiro/shiro-web/1.2.6/shiro-web-1.2.6.jar!/org/apache/shiro/web/mgt/CookieRememberMeManager.class&#10;ItemContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/ItemController.java&#10;Usercontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;ShiroCOnf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;lis&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;login&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/login.jsp&#10;KillSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;executeMqResult&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Killcontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;Rab&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;Rabbit&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java&#10;mq&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Ra&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;ex&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;itemkil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;IKill&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/IKillService.java&#10;Redissoncon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java&#10;KillCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;pom.x&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;KillContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;ItemKil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;Sch&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/SchedulerService.java&#10;Rabbitmqconf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java&#10;Kil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;KIllSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;spring-j&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/spring/spring-jdbc.xml&#10;Readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Shircon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" />
     <property name="last_opened_file_path" value="E:/标准-微服务SpringBoot项目/itemKillV2" />
   </component>
   <component name="RecentsManager">
@@ -906,7 +959,11 @@
       <workItem from="1565574296594" duration="2638000" />
       <workItem from="1565577261520" duration="537000" />
       <workItem from="1565786075739" duration="423000" />
-      <workItem from="1565834585227" duration="10000" />
+      <workItem from="1565834585227" duration="38000" />
+      <workItem from="1565836675753" duration="13000" />
+      <workItem from="1565836702164" duration="603000" />
+      <workItem from="1566358206695" duration="657000" />
+      <workItem from="1566439551678" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
@@ -1160,14 +1217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565577795920</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="1、添加博客：https://my.oschina.net/steadyjack/blog/3092759">
+      <created>1565834605610</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1565834605610</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116601000" />
+    <option name="totallyTimeSpent" value="120892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1193,7 +1257,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6137441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25512406" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26375404" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1227,20 +1291,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40021574" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18601896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18601896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="1867" y="92" width="6" height="856" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="1867" y="92" width="6" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74170613" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6137441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25512406" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26375404" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1256,7 +1320,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="解决冲突" />
     <MESSAGE value="1、添加一些跟秒杀系统相关的信息" />
     <MESSAGE value="1、调整一下readme的样式" />
     <MESSAGE value="1、在readme文件增加内容" />
@@ -1281,7 +1344,8 @@
     <MESSAGE value="1、readme添加博客 https://my.oschina.net/steadyjack/blog/3084513" />
     <MESSAGE value="1、readme添加博客 https://my.oschina.net/steadyjack/blog/3088981" />
     <MESSAGE value="调整代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整代码" />
+    <MESSAGE value="1、添加博客：https://my.oschina.net/steadyjack/blog/3092759" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加博客：https://my.oschina.net/steadyjack/blog/3092759" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1314,21 +1378,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="107" column="7" lean-forward="true" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/SchedulerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/SchedulerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1370,14 +1419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="152" column="37" lean-forward="true" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1624,7 +1665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="21" column="84" lean-forward="false" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1644,7 +1684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
+        <state relative-caret-position="1824">
           <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
           <folding />
         </state>
@@ -1660,7 +1700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
+        <state relative-caret-position="984">
           <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
           <folding>
             <marker date="1565576048525" expanded="true" signature="2924:3980" ph="{...}" />
@@ -1672,7 +1712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1695,19 +1734,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="760">
           <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/support/converter/AbstractJavaTypeMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3892#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="59" column="51" lean-forward="false" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <first_editor relative-caret-position="360">
+            <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="51" />
             <folding />
           </first_editor>
           <second_editor />
