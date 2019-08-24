@@ -44,24 +44,24 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 6.最后，可以开心的玩耍了！  
 
 #### 博客列表(建议按照顺序来！！)  
-1.https://my.oschina.net/steadyjack/blog/3074162  
-2.https://my.oschina.net/steadyjack/blog/3074177  
-3.https://my.oschina.net/steadyjack/blog/3074653  
-4.https://my.oschina.net/steadyjack/blog/3075598    
-5.https://my.oschina.net/steadyjack/blog/3076883    
-6.https://my.oschina.net/steadyjack/blog/3077526    
-7.https://my.oschina.net/steadyjack/blog/3077853     
-8.https://my.oschina.net/steadyjack/blog/3079354       
-9.https://my.oschina.net/steadyjack/blog/3080994       
-10.https://my.oschina.net/steadyjack/blog/3081468       
-11.https://my.oschina.net/steadyjack/blog/3084513     
-12.https://my.oschina.net/steadyjack/blog/3085992    
-13.https://my.oschina.net/steadyjack/blog/3088981    
-14.https://my.oschina.net/steadyjack/blog/3092759    
-15.https://my.oschina.net/steadyjack/blog/3095938    
-16.https://my.oschina.net/steadyjack/blog/3095960    
-17.  
-18.
+1.Java秒杀系统(一)：Java商城秒杀系统设计与实战视频教程(SpringBoot版)重磅发布：http://www.fightjava.com/web/index/blog/article/13   
+2.Java秒杀系统(二)：构建SpringBoot多模块项目：http://www.fightjava.com/web/index/blog/article/14    
+3.Java秒杀系统(三)：整体业务流程介绍与数据库设计：http://www.fightjava.com/web/index/blog/article/15    
+4.Java秒杀系统(四)：待秒杀商品列表与详情功能开发：http://www.fightjava.com/web/index/blog/article/16      
+5.Java秒杀系统(五)：整合Shiro实现用户登录认证：http://www.fightjava.com/web/index/blog/article/17      
+6.Java秒杀系统(六)：商品秒杀代码实战：http://www.fightjava.com/web/index/blog/article/18      
+7.Java秒杀系统(七)：分布式唯一ID生成订单编号：http://www.fightjava.com/web/index/blog/article/19      
+8.Java秒杀系统(八)：整合RabbitMQ实现消息异步发送：http://www.fightjava.com/web/index/blog/article/20        
+9. Java秒杀系统(九)：开发通用的发送邮件服务：http://www.fightjava.com/web/index/blog/article/21         
+10.Java秒杀系统(十)：RabbitMQ死信队列处理超时未支付的订单：http://www.fightjava.com/web/index/blog/article/22       
+11.Java秒杀系统(十一)：定时任务补充处理超时未支付的订单：http://www.fightjava.com/web/index/blog/article/23       
+12.Java秒杀系统(十二):JMeter压力测试重现秒杀场景中超卖等问题：http://www.fightjava.com/web/index/blog/article/24      
+13.Java秒杀系统(十三)：数据库级别Sql的优化与代码的调整：http://www.fightjava.com/web/index/blog/article/25      
+14.Java秒杀系统(十四)：基于Redis的原子操作优化秒杀逻辑：http://www.fightjava.com/web/index/blog/article/26    
+15.Java秒杀系统(十五)：基于Redisson的分布式锁优化秒杀逻辑：http://www.fightjava.com/web/index/blog/article/27    
+16.Java秒杀系统(十六)：基于ZooKeeper的分布式锁优化秒杀逻辑：http://www.fightjava.com/web/index/blog/article/28      
+17.Java秒杀系统(十七)：秒杀逻辑优化之RabbitMQ接口限流一：http://www.fightjava.com/web/index/blog/article/29  
+18.Java秒杀系统(十八)：秒杀逻辑优化之RabbitMQ接口限流二：http://www.fightjava.com/web/index/blog/article/30  
 
 
 #### 联系Debug
