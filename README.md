@@ -4,22 +4,25 @@
 基于SpringBoot+Mybatis+Mysql+中间件构建的商城秒杀系统；其中，中间件主要包括：缓存中间件Redis、消息中间件RabbitMQ、统一协调调度中心中间件ZooKeeper、综合中间件Redisson等等，详细的技术列表可以参见下方“系统整体架构说明”
 **(走过路过，千万要记得Fork和Star哦！！！)**
 
+ **对应的所有博客列表** ：http://www.fightjava.com/web/index/blog/type.html?typeId=8 
+ **对应的视频教程地址** ：http://www.fightjava.com/web/index/course/detail/6  
+
 #### 系统整体架构说明
 （1）技术列表：
-![alt 核心技术列表](https://images.gitbook.cn/833cb680-b1b2-11e9-89f4-5ff5de72dccb)
+![alt 核心技术列表](https://images.gitee.com/uploads/images/2019/0824/235302_1a4261d5_1442143.png)
 
 （2）系统整体业务流程：
-![alt 系统整体业务流程](https://images.gitbook.cn/9af2cfd0-b1b2-11e9-8487-47beb0202202)
+![alt 系统整体业务流程](https://images.gitee.com/uploads/images/2019/0824/235302_03ea97cd_1442143.png)
 
 （3）系统实战收益：
-![alt 系统实战收益](https://images.gitbook.cn/a9d7ad90-b1b2-11e9-b1e4-bd20b997b6ad)  
+![alt 系统实战收益](https://images.gitee.com/uploads/images/2019/0824/235302_0311e170_1442143.png)  
 
 (4)部分运行效果截图：
-![alt 运行效果1](https://images.gitbook.cn/b7aa5800-b1b2-11e9-8b37-8b327485b95f)    
+![alt 运行效果1](https://images.gitee.com/uploads/images/2019/0824/235302_3a6851d7_1442143.png)    
 
-![alt 运行效果2](https://images.gitbook.cn/c3558e90-b1b2-11e9-89f4-5ff5de72dccb)   
+![alt 运行效果2](https://images.gitee.com/uploads/images/2019/0824/235302_de1cfc85_1442143.png)   
  
-![alt 运行效果3](https://images.gitbook.cn/ce5e1c80-b1b2-11e9-b1e4-bd20b997b6ad)   
+![alt 运行效果3](https://images.gitee.com/uploads/images/2019/0824/235302_6cfca7e5_1442143.png)   
  
 
 #### 开发软件与工具
@@ -72,7 +75,7 @@ ZooKeeper_Windows的简化安装版(Zookeeper-3.4.6)--当然，如果自己有Li
 **Debug的QQ**：1948831260 <a target='_blank' href='http://wpa.qq.com/msgrd?v=1&uin=1948831260&site=qq&menu=yes'>                      	<img border='0' src='http://wpa.qq.com/pa?p=2:1948831260:41' alt='' title=''></a>
 
 **Debug的技术公众号**：  
-![alt Debug的技术公众号](https://images.gitbook.cn/daec11f0-b1b2-11e9-8b37-8b327485b95f)  
+![alt Debug的技术公众号](https://images.gitee.com/uploads/images/2019/0824/235302_dfad0bc4_1442143.jpeg)  
 
 
 #### 视频教程
