@@ -18,7 +18,7 @@
         <!--</constructor-arg>-->
     <!--</bean>-->
 
-    <!--<bean id="customerRealm" class="com.debug.kill.server.service.CustomRealm">-->
+    <!--<bean id="customerRealm" class="com.debug.kill.server.Realm.CustomRealm">-->
     <!--</bean>-->
 
     <!--<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">-->

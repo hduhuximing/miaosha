@@ -1,10 +1,6 @@
-package com.debug.kill.server.config;/**
- * Created by Administrator on 2019/7/2.
- */
+package com.debug.kill.server.config;
 
-import com.debug.kill.server.service.CustomRealm;
-import org.apache.shiro.authc.credential.CredentialsMatcher;
-import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import com.debug.kill.server.Realm.CustomRealm;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -16,6 +12,7 @@ import java.util.Map;
 
 /**
  * shiro的通用化配置
+ *
  * @Author:debug (SteadyJack)
  * @Date: 2019/7/2 17:54
  **/
@@ -23,33 +20,33 @@ import java.util.Map;
 public class ShiroConfig {
 
     @Bean
-    public CustomRealm customRealm(){
-        CustomRealm realm=new CustomRealm();
+    public CustomRealm customRealm() {
+        CustomRealm realm = new CustomRealm();
         return realm;
     }
 
     @Bean
-    public SecurityManager securityManager(){
-        DefaultWebSecurityManager securityManager=new DefaultWebSecurityManager();
+    public SecurityManager securityManager() {
+        DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(customRealm());
         securityManager.setRememberMeManager(null);
         return securityManager;
     }
 
     @Bean
-    public ShiroFilterFactoryBean shiroFilterFactoryBean(){
-        ShiroFilterFactoryBean bean=new ShiroFilterFactoryBean();
+    public ShiroFilterFactoryBean shiroFilterFactoryBean() {
+        ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
         bean.setSecurityManager(securityManager());
         bean.setLoginUrl("/to/login");
         bean.setUnauthorizedUrl("/unauth");
 
-        Map<String, String> filterChainDefinitionMap=new HashMap<>();
-        filterChainDefinitionMap.put("/to/login","anon");
+        Map<String, String> filterChainDefinitionMap = new HashMap<>();
+        filterChainDefinitionMap.put("/to/login", "anon");
 
-        filterChainDefinitionMap.put("/kill/execute","authc");
-        filterChainDefinitionMap.put("/item/detail","authc");
+        filterChainDefinitionMap.put("/kill/execute", "authc");
+        filterChainDefinitionMap.put("/item/detail", "authc");
 
-        filterChainDefinitionMap.put("/**","anon");
+        filterChainDefinitionMap.put("/**", "anon");
         bean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         return bean;
     }

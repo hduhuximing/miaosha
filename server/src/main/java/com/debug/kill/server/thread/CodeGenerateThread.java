@@ -8,6 +8,7 @@ import com.debug.kill.server.utils.RandomUtil;
 
 /**
  * @Author:debug (SteadyJack)
+ * uuid
  * @Date: 2019/7/11 10:30
  **/
 public class CodeGenerateThread implements Runnable{

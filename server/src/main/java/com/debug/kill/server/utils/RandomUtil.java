@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * 随机数生成util
+ * 基于uuid的随机数生成util
  * @Author:debug (SteadyJack)
  * @Date: 2019/6/20 21:05
  **/

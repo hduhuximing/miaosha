@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 用户controller
  * @Author:debug (SteadyJack)
  * @Date: 2019/7/2 17:45
+ * 集成shiro
  **/
 @Controller
 public class UserController {

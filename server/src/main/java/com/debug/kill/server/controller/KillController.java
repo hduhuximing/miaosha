@@ -8,7 +8,7 @@ import com.debug.kill.model.dto.KillSuccessUserInfo;
 import com.debug.kill.model.mapper.ItemKillSuccessMapper;
 import com.debug.kill.server.dto.KillDto;
 import com.debug.kill.server.service.IKillService;
-import com.debug.kill.server.service.RabbitSenderService;
+import com.debug.kill.server.rabbitmq.RabbitSenderService;
 import com.google.common.collect.Maps;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -23,7 +23,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.Map;
-import java.util.Objects;
 
 /**
  * 秒杀controller
@@ -68,12 +67,6 @@ public class KillController {
         }
         return response;
     }
-
-
-
-
-
-
 
 
     /***
@@ -122,14 +115,7 @@ public class KillController {
 
 
 
-
-
-
-
-
-
     //http://localhost:8083/kill/kill/record/detail/343147116421722112
-
     /**
      * 查看订单详情
      * @return
@@ -147,7 +133,6 @@ public class KillController {
         return "killRecord";
     }
 
-
     //抢购成功跳转页面
     @RequestMapping(value = prefix+"/execute/success",method = RequestMethod.GET)
     public String executeSuccess(){
@@ -160,13 +145,8 @@ public class KillController {
         return "executeFail";
     }
 
-
-
-
-
     @Autowired
     private RabbitSenderService rabbitSenderService;
-
     //商品秒杀核心业务逻辑-mq限流
     @RequestMapping(value = prefix+"/execute/mq",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ResponseBody
@@ -244,43 +224,3 @@ public class KillController {
         return response;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

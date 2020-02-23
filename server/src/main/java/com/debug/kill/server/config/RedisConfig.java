@@ -29,7 +29,6 @@ public class RedisConfig {
         //TODO:指定Key、Value的序列化策略
         redisTemplate.setKeySerializer(new StringRedisSerializer());
         redisTemplate.setValueSerializer(new JdkSerializationRedisSerializer());
-
         redisTemplate.setHashKeySerializer(new StringRedisSerializer());
         return redisTemplate;
     }
