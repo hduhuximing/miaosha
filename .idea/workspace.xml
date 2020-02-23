@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/server_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/server_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/server_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/server_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootSecondKill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootSecondKill.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/debug/kill/api/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/SchedulerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/SchedulerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ZooKeeperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ZooKeeperConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/Realm/CustomRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/SchedulerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/SchedulerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateSnowThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateSnowThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/spring/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/spring/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +481,7 @@
       <workItem from="1581943699788" duration="5747000" />
       <workItem from="1582359416457" duration="2608000" />
       <workItem from="1582366051059" duration="8988000" />
-      <workItem from="1582427147043" duration="6610000" />
+      <workItem from="1582427147043" duration="6908000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
