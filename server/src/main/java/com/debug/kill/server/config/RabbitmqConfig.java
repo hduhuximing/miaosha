@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.amqp.SimpleRabbitListenerContainerFactoryConfigurer;
@@ -16,6 +16,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * 通用化 Rabbitmq 配置
@@ -77,8 +78,8 @@ public class RabbitmqConfig {
         rabbitTemplate.setMandatory(true);
         rabbitTemplate.setConfirmCallback(new RabbitTemplate.ConfirmCallback() {
             @Override
-            public void confirm(CorrelationData correlationData, boolean ack, String cause) {
-                log.info("消息发送成功:correlationData({}),ack({}),cause({})", correlationData, ack, cause);
+            public void confirm(CorrelationData correlationData, boolean b, String s) {
+                log.info("消息发送成功:correlationData({}),ack({}),cause({})", correlationData, b, s);
             }
         });
         rabbitTemplate.setReturnCallback(new RabbitTemplate.ReturnCallback() {
@@ -109,7 +110,7 @@ public class RabbitmqConfig {
 
 
     //构建秒杀成功之后-订单超时未支付的死信队列消息模型
-    //死信队列
+    //业务处理。出错进死信
     @Bean
     public Queue successKillDeadQueue() {
         Map<String, Object> argsMap = Maps.newHashMap();
@@ -137,7 +138,7 @@ public class RabbitmqConfig {
     //真正的队列
     @Bean
     public Queue successKillRealQueue() {
-        return new Queue(env.getProperty("mq.kill.item.success.kill.dead.real.queue"), true);
+        return new Queue(Objects.requireNonNull(env.getProperty("mq.kill.item.success.kill.dead.real.queue")), true);
     }
 
     //死信交换机
@@ -169,12 +170,16 @@ public class RabbitmqConfig {
 
     @Bean
     public TopicExchange executeLimitExchange() {
-        return new TopicExchange(env.getProperty("mq.kill.item.execute.limit.queue.exchange"), true, false);
+        return new TopicExchange(env.getProperty("mq.kill.item.execute.limit.queue.exchange"),
+                true,
+                false);
     }
 
     @Bean
     public Binding executeLimitBinding() {
-        return BindingBuilder.bind(executeLimitQueue()).to(executeLimitExchange()).with(env.getProperty("mq.kill.item.execute.limit.queue.routing.key"));
+        return BindingBuilder.bind(executeLimitQueue())
+                .to(executeLimitExchange())
+                .with(env.getProperty("mq.kill.item.execute.limit.queue.routing.key"));
     }
 }
 

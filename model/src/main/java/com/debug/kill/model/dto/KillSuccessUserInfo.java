@@ -1,6 +1,4 @@
-package com.debug.kill.model.dto;/**
- * Created by Administrator on 2019/6/21.
- */
+package com.debug.kill.model.dto;
 
 import com.debug.kill.model.entity.ItemKillSuccess;
 import lombok.Data;
@@ -12,7 +10,7 @@ import java.io.Serializable;
  * @Date: 2019/6/21 22:02
  **/
 @Data
-public class KillSuccessUserInfo extends ItemKillSuccess implements Serializable{
+public class KillSuccessUserInfo extends ItemKillSuccess implements Serializable {
 
     private String userName;
 
@@ -24,7 +22,7 @@ public class KillSuccessUserInfo extends ItemKillSuccess implements Serializable
 
     @Override
     public String toString() {
-        return super.toString()+"\nKillSuccessUserInfo{" +
+        return super.toString() + "\nKillSuccessUserInfo{" +
                 "userName='" + userName + '\'' +
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +

@@ -46,7 +46,6 @@ public class RabbitSenderService {
      */
     public void sendKillSuccessEmailMsg(String orderNo) {
         log.info("秒杀成功异步发送邮件通知消息-准备发送消息：{}", orderNo);
-
         try {
             if (StringUtils.isNotBlank(orderNo)) {
                 KillSuccessUserInfo info = itemKillSuccessMapper.selectByCode(orderNo);
@@ -75,8 +74,8 @@ public class RabbitSenderService {
 
 
     /**
+     * 延迟队列
      * 秒杀成功后生成抢购订单-发送信息入死信队列，等待着一定时间失效超时未支付的订单
-     *
      * @param orderCode
      */
     public void sendKillSuccessOrderExpireMsg(final String orderCode) {

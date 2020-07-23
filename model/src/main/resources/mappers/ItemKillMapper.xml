@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.debug.kill.model.mapper.ItemKillMapper" >
-  <resultMap id="BaseResultMap" type="com.debug.kill.model.entity.ItemKill" >
-    <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="item_id" property="itemId" jdbcType="INTEGER" />
-    <result column="total" property="total" jdbcType="INTEGER" />
-    <result column="start_time" property="startTime" jdbcType="TIMESTAMP" />
-    <result column="end_time" property="endTime" jdbcType="TIMESTAMP" />
-    <result column="is_active" property="isActive" jdbcType="TINYINT" />
-    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
-  </resultMap>
-  <sql id="Base_Column_List" >
+<mapper namespace="com.debug.kill.model.mapper.ItemKillMapper">
+    <resultMap id="BaseResultMap" type="com.debug.kill.model.entity.ItemKill">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="item_id" property="itemId" jdbcType="INTEGER"/>
+        <result column="total" property="total" jdbcType="INTEGER"/>
+        <result column="start_time" property="startTime" jdbcType="TIMESTAMP"/>
+        <result column="end_time" property="endTime" jdbcType="TIMESTAMP"/>
+        <result column="is_active" property="isActive" jdbcType="TINYINT"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <sql id="Base_Column_List">
     id, item_id, total, start_time, end_time, is_active, create_time
   </sql>
 
 
-  <!--查询待秒杀的活动商品列表-->
-  <select id="selectAll" resultType="com.debug.kill.model.entity.ItemKill">
+    <!--查询待秒杀的活动商品列表-->
+    <select id="selectAll" resultType="com.debug.kill.model.entity.ItemKill">
     SELECT
       a.*,
       b.name AS itemName,
@@ -25,13 +25,15 @@
           THEN 1
         ELSE 0
         END
-      )      AS canKill
-    FROM item_kill AS a LEFT JOIN item AS b ON b.id = a.item_id
+      ) AS canKill
+    FROM item_kill AS a
+    LEFT JOIN item AS b
+    ON b.id = a.item_id
     WHERE a.is_active = 1
   </select>
 
-  <!--获取秒杀详情-->
-  <select id="selectById" resultType="com.debug.kill.model.entity.ItemKill">
+    <!--获取秒杀详情-->
+    <select id="selectById" resultType="com.debug.kill.model.entity.ItemKill">
     SELECT
       a.*,
       b.name AS itemName,
@@ -41,24 +43,23 @@
         ELSE 0
         END
       )      AS canKill
-    FROM item_kill AS a LEFT JOIN item AS b ON b.id = a.item_id
+    FROM item_kill AS a
+    LEFT JOIN item AS b
+    ON b.id = a.item_id
     WHERE a.is_active = 1 AND a.id= #{id}
   </select>
 
-  <!--抢购商品，剩余数量减一-->
-  <update id="updateKillItem">
-    UPDATE item_kill
-    SET total = total - 1
-    WHERE
-        id = #{killId}
+    <!--抢购商品，剩余数量减一-->
+    <update id="updateKillItem">
+    update
+    item_kill
+    set totle=totle-1
+    where id=#{killId}
   </update>
 
 
-
-
-
-  <!--获取秒杀详情V2-->
-  <select id="selectByIdV2" resultType="com.debug.kill.model.entity.ItemKill">
+    <!--获取秒杀详情V2-->
+    <select id="selectByIdV2" resultType="com.debug.kill.model.entity.ItemKill">
     SELECT
       a.*,
       b.name AS itemName,
@@ -71,16 +72,11 @@
   </select>
 
 
-
-
-
-
-
-
-
-
-  <!--抢购商品，剩余数量减一-->
-  <update id="updateKillItemV2">
+    <!--抢购商品，剩余数量减一-->
+    <!--  stock_count>0的时候才去更新，数据库本身会有锁，
+    那么就不会在数据库中同时多个线程更新一条记录，
+    使用数据库特性来保证超卖的问题-->
+    <update id="updateKillItemV2">
     UPDATE item_kill
     SET total = total - 1
     WHERE id = #{killId} AND total>0

@@ -34,7 +34,6 @@ public class SchedulerService {
     /**
      * 定时获取status=0的订单并判断是否超过TTL，然后进行失效
      */
-//    @Scheduled(cron = "0/10 * * * * ?")
     @Scheduled(cron = "0 0/30 * * * ?")
     public void schedulerExpireOrders() {
         //log.info("v1的定时任务----");

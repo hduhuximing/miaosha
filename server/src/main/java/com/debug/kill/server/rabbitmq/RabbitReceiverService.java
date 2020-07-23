@@ -43,7 +43,8 @@ public class RabbitReceiverService {
     /**
      * 秒杀异步邮件通知-接收消息
      */
-    @RabbitListener(queues = {"${mq.kill.item.success.email.queue}"}, containerFactory = "singleListenerContainer")
+    @RabbitListener(queues = {"${mq.kill.item.success.email.queue}"},
+            containerFactory = "singleListenerContainer")
     public void consumeEmailMsg(KillSuccessUserInfo info) {
         try {
             log.info("秒杀异步邮件通知-接收消息:{}", info);
@@ -64,11 +65,13 @@ public class RabbitReceiverService {
     }
 
     /**
+     * 延迟队列真正的接受者
      * 用户秒杀成功后超时未支付-监听者
      *
      * @param info
      */
-    @RabbitListener(queues = {"${mq.kill.item.success.kill.dead.real.queue}"}, containerFactory = "singleListenerContainer")
+    @RabbitListener(queues = {"${mq.kill.item.success.kill.dead.real.queue}"},
+            containerFactory = "singleListenerContainer")
     public void consumeExpireOrder(KillSuccessUserInfo info) {
         try {
             log.info("用户秒杀成功后超时未支付-监听者-接收消息:{}", info);
@@ -90,7 +93,8 @@ public class RabbitReceiverService {
      *
      * @param dto
      */
-    @RabbitListener(queues = {"${mq.kill.item.execute.limit.queue.name}"}, containerFactory = "multiListenerContainer")
+    @RabbitListener(queues = {"${mq.kill.item.execute.limit.queue.name}"},
+            containerFactory = "multiListenerContainer")
     public void consumeKillExecuteMqMsg(KillDto dto) {
         try {
             if (dto != null) {

@@ -1,5 +1,6 @@
 package com.debug.kill.model.entity;
 
+
 public class RandomCode {
     private Integer id;
 

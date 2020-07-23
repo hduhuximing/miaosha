@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ming" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="1、添加博客：&#10;15.https://my.oschina.net/steadyjack/blog/3095938    &#10;16.https://my.oschina.net/steadyjack/blog/3095960">
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/enums/EnumTe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dto/KillSuccessUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dto/KillSuccessUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/RandomCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/RandomCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/Realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/Realm/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/SchedulerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/SchedulerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/IItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/IItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/spring/spring-shiro.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,14 +55,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,13 +66,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:hduhuximing/miaosha.git" />
+      </set>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -44,13 +87,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1Xw4C5f6ljJyHZnZvRQPebdg4zO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,10 +96,10 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="AbstractJavaType&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/support/converter/AbstractJavaTypeMapper.class&#10;readmem&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;Rabbitmqcon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java&#10;SnowF&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java&#10;applica&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/application.properties&#10;readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;ItemKillMa&#9;PSI&#9;JAVA://com.debug.kill.model.mapper.ItemKillMapper&#10;ItemKillS&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/java/com/debug/kill/model/mapper/ItemKillSuccessMapper.java&#10;Shiro&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;Usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Cus&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/CustomRealm.java&#10;info.js&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;KIllService&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;read&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;ShiroCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;pom.xml&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;Rlo&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/redisson/redisson/3.8.2/redisson-3.8.2.jar!/org/redisson/api/RLock.class&#10;RedissonCli&#9;PSI&#9;JAVA://org.redisson.api.RedissonClient&#10;Main&#9;RUN_CONFIGURATION&#9;MainApplication&#10;Usercon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;CookieRem&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/shiro/shiro-web/1.2.6/shiro-web-1.2.6.jar!/org/apache/shiro/web/mgt/CookieRememberMeManager.class&#10;ItemContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/ItemController.java&#10;Usercontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;ShiroCOnf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java&#10;lis&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/list.jsp&#10;login&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/login.jsp&#10;KillSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;executeMqResult&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Killcontr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;info&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/info.jsp&#10;Rab&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;Rabbit&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitSenderService.java&#10;mq&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;Ra&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/RabbitReceiverService.java&#10;ex&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/webapp/WEB-INF/views/executeMqResult.jsp&#10;itemkil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;IKill&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/IKillService.java&#10;Redissoncon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RedissonConfig.java&#10;KillCon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;pom.x&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/pom.xml&#10;KillContr&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/KillController.java&#10;ItemKil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml&#10;Sch&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/SchedulerService.java&#10;Rabbitmqconf&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java&#10;Kil&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;KIllSer&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/service/impl/KillService.java&#10;spring-j&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/resources/spring/spring-jdbc.xml&#10;Readme&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/README.md&#10;usercont&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/controller/UserController.java&#10;Shircon&#9;FILE&#9;file://E:/WorkSpaceGitee/SpringBootSecondKill/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" />
@@ -71,6 +107,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="E:/标准-微服务SpringBoot项目/itemKillV2" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -127,6 +164,40 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -281,40 +352,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -481,7 +518,49 @@
       <workItem from="1581943699788" duration="5747000" />
       <workItem from="1582359416457" duration="2608000" />
       <workItem from="1582366051059" duration="8988000" />
-      <workItem from="1582427147043" duration="6908000" />
+      <workItem from="1582427147043" duration="9575000" />
+      <workItem from="1582450082009" duration="314000" />
+      <workItem from="1582612706256" duration="2282000" />
+      <workItem from="1582695855735" duration="886000" />
+      <workItem from="1582800827791" duration="1506000" />
+      <workItem from="1582804476915" duration="1649000" />
+      <workItem from="1582902716923" duration="427000" />
+      <workItem from="1582978187668" duration="509000" />
+      <workItem from="1582981670871" duration="80000" />
+      <workItem from="1582981883348" duration="281000" />
+      <workItem from="1582983157214" duration="1104000" />
+      <workItem from="1583118687724" duration="836000" />
+      <workItem from="1583120852378" duration="1744000" />
+      <workItem from="1583558347187" duration="98000" />
+      <workItem from="1583664464588" duration="1486000" />
+      <workItem from="1583667320757" duration="694000" />
+      <workItem from="1584015656396" duration="1388000" />
+      <workItem from="1584239268133" duration="1402000" />
+      <workItem from="1585146068549" duration="963000" />
+      <workItem from="1585210584947" duration="589000" />
+      <workItem from="1585212136372" duration="305000" />
+      <workItem from="1585719244350" duration="1610000" />
+      <workItem from="1585824212335" duration="49000" />
+      <workItem from="1585837239724" duration="276000" />
+      <workItem from="1586085518861" duration="154000" />
+      <workItem from="1586146049409" duration="838000" />
+      <workItem from="1586879782515" duration="1068000" />
+      <workItem from="1586955534168" duration="1000" />
+      <workItem from="1587059908839" duration="4359000" />
+      <workItem from="1587562248108" duration="1629000" />
+      <workItem from="1588860232389" duration="576000" />
+      <workItem from="1590321345665" duration="207000" />
+      <workItem from="1590491391884" duration="1000" />
+      <workItem from="1590905295789" duration="603000" />
+      <workItem from="1591771060512" duration="968000" />
+      <workItem from="1592188297573" duration="563000" />
+      <workItem from="1592294889391" duration="582000" />
+      <workItem from="1593487756591" duration="551000" />
+      <workItem from="1593849162324" duration="391000" />
+      <workItem from="1593849751611" duration="260000" />
+      <workItem from="1593960327479" duration="204000" />
+      <workItem from="1594718565714" duration="669000" />
+      <workItem from="1595467281756" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
@@ -753,7 +832,21 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、调整一下readme的样式" />
@@ -784,37 +877,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="1、添加博客：&#10;15.https://my.oschina.net/steadyjack/blog/3095938    &#10;16.https://my.oschina.net/steadyjack/blog/3095960" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Inspections" timestamp="1582427251197">
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1593849188699">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1582427251197" />
-    <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581944039987">
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1593849188699" />
+    <state x="378" y="207" width="683" height="486" key="find.popup" timestamp="1587089939148">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1581944039987" />
-    <state x="208" y="31" key="SettingsEditor" timestamp="1581945070618">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581945070618" />
-    <state x="378" y="207" width="683" height="486" key="find.popup" timestamp="1582429767950">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="378" y="207" width="683" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1582429767950" />
-    <state x="385" y="164" width="670" height="736" key="search.everywhere.popup" timestamp="1582383863860">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="164" width="670" height="736" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582383863860" />
-    <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1582026937203" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/KillController.java</url>
-          <line>170</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="378" y="207" width="683" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1587089939148" />
   </component>
 </project>

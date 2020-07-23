@@ -25,6 +25,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -73,7 +74,6 @@ public class KillService implements IKillService {
         //TODO:学以致用，举一反三 -> 仿照单例模式的双重检验锁写法
         if (itemKillSuccessMapper.countByKillUserId(kill.getId(), userId) <= 0) {
             int res = itemKillSuccessMapper.insertSelective(entity);
-
             if (res > 0) {
                 //TODO:进行异步邮件消息的通知=rabbitmq+mail
                 rabbitSenderService.sendKillSuccessEmailMsg(orderNo);
@@ -100,13 +100,11 @@ public class KillService implements IKillService {
             //TODO:判断当前代抢购的商品库存是否充足、以及是否出在可抢的时间段内 - canKill
             ItemKill itemKill = itemKillMapper.selectById(killId);
             if (itemKill != null && 1 == itemKill.getCanKill()) {
-
                 //TODO:扣减库存-减1
                 int res = itemKillMapper.updateKillItem(killId);
                 if (res > 0) {
                     //TODO:判断是否扣减成功了?是-生成秒杀成功的订单、同时通知用户秒杀已经成功（在一个通用的方法里面实现）
                     this.commonRecordKillSuccessInfo(itemKill, userId);
-
                     result = true;
                 }
             }
@@ -220,9 +218,12 @@ public class KillService implements IKillService {
     public Boolean killItemV4(Integer killId, Integer userId) throws Exception {
         Boolean result = false;
 
-        final String lockKey = new StringBuffer().append(killId).append(userId).append("-RedissonLock").toString();
+        final String lockKey = new StringBuffer()
+                .append(killId)
+                .append(userId)
+                .append("-RedissonLock")
+                .toString();
         RLock lock = redissonClient.getLock(lockKey);
-
         try {
             //TODO:第一个参数30s=表示尝试获取分布式锁，并且最大的等待获取锁的时间为30s
             //TODO:第二个参数10s=表示上锁之后，10s内操作完毕将自动释放锁
@@ -256,7 +257,6 @@ public class KillService implements IKillService {
 
     @Autowired
     private CuratorFramework curatorFramework;
-
     private static final String pathPrefix = "/kill/zkLock/";
 
     /**
@@ -270,7 +270,8 @@ public class KillService implements IKillService {
     @Override
     public Boolean killItemV5(Integer killId, Integer userId) throws Exception {
         Boolean result = false;
-        InterProcessMutex mutex = new InterProcessMutex(curatorFramework, pathPrefix + killId + userId + "-lock");
+        InterProcessMutex mutex =
+                new InterProcessMutex(curatorFramework, pathPrefix + killId + userId + "-lock");
         try {
             if (mutex.acquire(10L, TimeUnit.SECONDS)) {
                 //TODO:核心业务逻辑
