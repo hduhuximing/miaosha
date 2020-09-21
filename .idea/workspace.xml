@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -24,29 +27,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="1、添加博客：&#10;15.https://my.oschina.net/steadyjack/blog/3095938    &#10;16.https://my.oschina.net/steadyjack/blog/3095960">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/enums/EnumTe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b042ab79-0605-41db-a03d-86cb76ac7044" name="Default" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dto/KillSuccessUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dto/KillSuccessUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/RandomCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/RandomCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/Realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/Realm/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/SchedulerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/SchedulerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/IItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/IItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/thread/CodeGenerateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application-local.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/spring/spring-shiro.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +60,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitReceiverService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/KillService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/rabbitmq/RabbitSenderService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitmqConfig.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -87,6 +73,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1Xw4C5f6ljJyHZnZvRQPebdg4zO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -164,6 +157,61 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorDevice" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="clearAppDataOnEachLaunch" value="true" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
@@ -280,61 +328,6 @@
       <option name="WORKING_DIRECTORY" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorDevice" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="clearAppDataOnEachLaunch" value="true" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -479,6 +472,7 @@
       <projects_view />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -560,7 +554,19 @@
       <workItem from="1593849751611" duration="260000" />
       <workItem from="1593960327479" duration="204000" />
       <workItem from="1594718565714" duration="669000" />
-      <workItem from="1595467281756" duration="409000" />
+      <workItem from="1595467281756" duration="588000" />
+      <workItem from="1596356641492" duration="569000" />
+      <workItem from="1596597338927" duration="320000" />
+      <workItem from="1597196555321" duration="55000" />
+      <workItem from="1597299060551" duration="737000" />
+      <workItem from="1599299638526" duration="244000" />
+      <workItem from="1599366146101" duration="8000" />
+      <workItem from="1599366160123" duration="5000" />
+      <workItem from="1599366180018" duration="359000" />
+      <workItem from="1599804683764" duration="713000" />
+      <workItem from="1600581629672" duration="372000" />
+      <workItem from="1600663134123" duration="792000" />
+      <workItem from="1600666997172" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1562640958276</created>
@@ -828,11 +834,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566443184157</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add">
+      <created>1595498380125</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1595498380125</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -849,7 +862,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1、调整一下readme的样式" />
     <MESSAGE value="1、在readme文件增加内容" />
     <MESSAGE value="1、在readme文件调整一些内容" />
     <MESSAGE value="1、在readme文件调整一些内容&#10;2、添加数据库DDL" />
@@ -874,16 +886,25 @@
     <MESSAGE value="调整代码" />
     <MESSAGE value="1、添加博客：https://my.oschina.net/steadyjack/blog/3092759" />
     <MESSAGE value="1、添加博客：&#10;15.https://my.oschina.net/steadyjack/blog/3095938    &#10;16.https://my.oschina.net/steadyjack/blog/3095960" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、添加博客：&#10;15.https://my.oschina.net/steadyjack/blog/3095938    &#10;16.https://my.oschina.net/steadyjack/blog/3095960" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="279" y="3" key="CommitChangelistDialog2" timestamp="1595498379859">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="279" y="3" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595498379859" />
     <state x="308" y="192" key="IDE.errors.dialog" timestamp="1593849188699">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1593849188699" />
-    <state x="378" y="207" width="683" height="486" key="find.popup" timestamp="1587089939148">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595498382836">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="378" y="207" width="683" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1587089939148" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595498382836" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600581734871">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600581734871" />
   </component>
 </project>

@@ -114,6 +114,7 @@ public class RabbitmqConfig {
     @Bean
     public Queue successKillDeadQueue() {
         Map<String, Object> argsMap = Maps.newHashMap();
+        //制定要发送到的私信交换机以及死信路由，就是当前的信息消费出现问题不能放回来，应该放到另外的地方
         argsMap.put("x-dead-letter-exchange", env.getProperty("mq.kill.item.success.kill.dead.exchange"));
         argsMap.put("x-dead-letter-routing-key", env.getProperty("mq.kill.item.success.kill.dead.routing.key"));
         return new Queue(env.getProperty("mq.kill.item.success.kill.dead.queue"), true, false, false, argsMap);

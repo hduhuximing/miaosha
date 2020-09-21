@@ -249,7 +249,7 @@ public class KillService implements IKillService {
         } finally {
             //TODO:释放锁
             lock.unlock();
-            //lock.forceUnlock();
+//            lock.forceUnlock();
         }
         return result;
     }
